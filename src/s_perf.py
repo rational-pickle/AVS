@@ -300,7 +300,7 @@ faq = [
     (("Can we go back?", "Pouvons-nous revenir en arrière?"),
      ("Yes. HCX migrates in both directions, and Bulk keeps the source VM for rollback.", "Oui. HCX migre dans les deux sens, et Bulk conserve la VM source pour un retour arrière.")),
     (("What about licensing?", "Et les licences?"),
-     ("Bring a portable VCF subscription from Broadcom. Azure Hybrid Benefit is no longer included; Windows Server and SQL Server still get no-cost ESUs.", "Apportez un abonnement VCF transférable de Broadcom. Azure Hybrid Benefit n'est plus inclus; Windows Server et SQL Server profitent toujours des ESU sans frais.")),
+     ("Bring a portable VCF subscription from Broadcom. Azure Hybrid Benefit and free ESUs are no longer included: budget Windows Server and SQL Server licensing separately.", "Apportez un abonnement VCF transférable de Broadcom. Azure Hybrid Benefit et les ESU gratuites ne sont plus inclus&nbsp;: prévoyez séparément les licences Windows Server et SQL Server.")),
 ]
 fh = '<div class="faq">' + "".join(f'<div><h3>{t(q[0], q[1])}</h3><p>{t(a[0], a[1])}</p></div>' for q, a in faq) + '</div>'
 add("faq", "appendix", ("Frequently asked questions", "Questions fréquentes"), fh,
